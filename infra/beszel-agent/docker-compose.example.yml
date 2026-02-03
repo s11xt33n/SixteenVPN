@@ -7,7 +7,6 @@ services:
 
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock:ro
-      # Runtime data directory (DO NOT COMMIT real data)
       - ./beszel_agent_data:/var/lib/beszel-agent
 
     environment:
